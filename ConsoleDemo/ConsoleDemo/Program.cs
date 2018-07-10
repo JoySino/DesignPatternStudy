@@ -12,7 +12,7 @@ namespace ConsoleDemo
         {
             Console.WriteLine("程序开始");
 
-            var tmp = Singleton.LockSingleton.Instance;
+            var tmp = Singleton.LazySingleton.Instance;
 
             Console.ReadKey();
         }
