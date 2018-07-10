@@ -10,7 +10,10 @@ namespace ConsoleDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("开始GitHub");
+            Console.WriteLine("程序开始");
+
+            var tmp = Singleton.LockSingleton.Instance;
+
             Console.ReadKey();
         }
     }

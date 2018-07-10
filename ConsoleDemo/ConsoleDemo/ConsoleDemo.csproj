@@ -42,8 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\TimeHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\LazySingleton.cs" />
+    <Compile Include="Singleton\LockSingleton.cs" />
+    <Compile Include="Singleton\ReadonlySingleton.cs" />
+    <Compile Include="Singleton\ReadonlySingleton2.cs" />
+    <Compile Include="Singleton\ReadonlySingleton3.cs" />
+    <Compile Include="Singleton\ReadonlySingleton4.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
